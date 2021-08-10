@@ -75,3 +75,18 @@ python3 main.py --pname TEST --task_id10 \
 --bbm dnn \
 --max_itr 500
 ```
+
+## Cite
+```bash
+@article{article,
+  author  = {Peter Adams},
+  title   = {The title of the work},
+  journal = {The name of the journal},
+  year    = 1993,
+  number  = 2,
+  pages   = {201-213},
+  month   = 7,
+  note    = {An optional note},
+  volume  = 4
+}
+```
