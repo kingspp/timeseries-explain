@@ -1,0 +1,3 @@
+[submodule "tsexp-deps"]
+	path = tsexp-deps
+	url = https://github.com/kingspp/tsexp-deps
