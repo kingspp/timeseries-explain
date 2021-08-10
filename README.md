@@ -39,6 +39,9 @@ saliency = tsexp.explain_instance(...)
 saliencies = tsexp.explain(...)
 ```
 
+## API Documentation
+[Timeseries Explain](https://kingspp.github.io/timeseries-explain)
+
 ## Abstract
 Explainable classification is essential to high-impact settings where practitioners require evidence to support their decisions. However, state-of-the-art deep learning models suffer from a lack of trans- parency in how they derive their predictions. One common form of explainability, termed attribution-based explainability, identi- fies which input features are used by the classifier for its predic- tion. While such explainability for image classifiers has recently received focus, little work has been done to-date to address ex- plainability for deep time series classifiers. In this work, we thus propose PERT, a novel perturbation-based explainability method designed explicitly for time series that can explain any classifier. PERT adaptively learns to perform timestep-specific interpolation to perturb instances and explain a black-box model’s predictions for a given instance, learning which timesteps lead to different be- havior in the classifier’s predictions. For this, PERT pairs two novel complementary techniques into an integrated architecture: a Priori- tized Replacement Selector that learns to select the best replacement time series from the background dataset specific to the instance-of- interest with a novel and learnable Guided-Perturbation Function, that uses the replacement time series to carefully perturb an input instance’s timesteps and discover the impact of each timestep on a black-box classifier’s final prediction. Across our experiments recording three metrics on nine publicly-available datasets, we find that PERT consistently outperforms the state-of-the-art explain- ability methods. We also show a case study using the CricketX dataset that demonstrates PERT succeeds in finding the relevant regions of gesture recognition time series.
 
