@@ -9,7 +9,7 @@
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/kingspprathyush@gmail.com)
 <!-- End of Badges -->
 
-# PERT - ***P***erturbation by Prioritiz***E***d ***R***eplacemen***T***
+# PERT - ***Pe***rturbation by Prioritized ***R***eplacemen***T***
 
 Prathyush Parvatharaju, Ramesh Doddaiah, Tom Hartvigsen, Elke Rundensteiner
 
