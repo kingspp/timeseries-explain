@@ -9,7 +9,7 @@
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/kingspprathyush@gmail.com)
 <!-- End of Badges -->
 
-# PERT - ***Pe***rturbation by Prioritized ***R***eplacemen***T***
+# PERT - ***PE***rturbation by Prioritized ***R***eplacemen***T***
 
 Prathyush Parvatharaju, Ramesh Doddaiah, Tom Hartvigsen, Elke Rundensteiner
 
@@ -30,13 +30,13 @@ tsexp -a pert -f data.csv -m xyz.model -o saliency.csv
 
 ### Python API
 ```python
-import tsexp
+from tsexp import PERT
 
 # Explain a single instance
-saliency = tsexp.explain_instance(...)
+saliency = PERT.explain_instance(...)
 
 # Explain Dataset
-saliencies = tsexp.explain(...)
+saliencies = PERT.explain(...)
 ```
 
 ## API Documentation
