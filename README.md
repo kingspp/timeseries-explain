@@ -81,15 +81,10 @@ python3 main.py --pname TEST --task_id10 \
 
 ## Cite
 ```bash
-@article{article,
-  author  = {Peter Adams},
-  title   = {The title of the work},
-  journal = {The name of the journal},
-  year    = 1993,
-  number  = 2,
-  pages   = {201-213},
-  month   = 7,
-  note    = {An optional note},
-  volume  = 4
+@inproceedings{parvatharaju2021learning,
+  author  = {Parvatharaju, Prathyush and Doddaiah, Ramesh and Hartvigsen, Thomas and Rundensteiner, Elke},
+  title   = {Learning Saliency Maps for Deep Time Series Classifiers},
+  booktitle = {ACM International Conference on Information and Knowledge Management},
+  year    = 2021,
 }
 ```
